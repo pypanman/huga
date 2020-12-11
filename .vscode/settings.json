@@ -1,0 +1,14 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "cSpell.words": [
+    "hasura",
+    "postgres",
+    "postgrespassword",
+    "postgresql"
+  ],
+  "cSpell.ignoreWords": [
+    "minireset",
+    "myadminsecretkey"
+  ]
+}
