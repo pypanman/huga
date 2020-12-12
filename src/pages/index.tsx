@@ -1,7 +1,7 @@
-import { NextPage } from 'next'
+import { NextPage } from 'next';
 
 const Index: NextPage = () => {
-  return <div>hoge</div>
-}
+  return <div>hoge</div>;
+};
 
-export default Index
+export default Index;

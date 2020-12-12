@@ -9,6 +9,7 @@
   ],
   "cSpell.ignoreWords": [
     "minireset",
-    "myadminsecretkey"
+    "myadminsecretkey",
+    "timestamptz"
   ]
 }

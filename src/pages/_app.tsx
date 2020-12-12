@@ -1,8 +1,8 @@
-import { AppProps } from 'next/app'
-import { ApolloClient, InMemoryCache, HttpLink } from '@apollo/client'
-import { ApolloProvider } from '@apollo/react-hooks'
+import { AppProps } from 'next/app';
+import { ApolloClient, InMemoryCache, HttpLink } from '@apollo/client';
+import { ApolloProvider } from '@apollo/react-hooks';
 
-import 'minireset.css'
+import 'minireset.css';
 
 const createApolloClient = () => {
   return new ApolloClient({
@@ -10,16 +10,16 @@ const createApolloClient = () => {
       uri: 'http://localhost8080/v1/graphql',
     }),
     cache: new InMemoryCache(),
-  })
-}
+  });
+};
 
 const MyApp = ({ Component, pageProps }: AppProps) => {
-  const client = createApolloClient()
+  const client = createApolloClient();
   return (
     <ApolloProvider client={client}>
       <Component {...pageProps} />
     </ApolloProvider>
-  )
-}
+  );
+};
 
-export default MyApp
+export default MyApp;
